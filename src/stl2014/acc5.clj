@@ -1,7 +1,7 @@
 (ns stl2014.acc5
   (:require [clojure.core.typed :as t
-             :refer [ann IFn U NonEmptyColl Int
-                     defalias Coll]]))
+             :refer [ann IFn U Coll Int
+                     defalias]]))
 
 (defalias NInts
   "nil or a persistent collection of integers"

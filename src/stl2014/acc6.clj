@@ -16,4 +16,6 @@
                    (first nseq))
                 42)))
 
-;(summarise [42 22 33])
+(summarise [42 22 33])
+(summarise nil)
+(summarise [])
